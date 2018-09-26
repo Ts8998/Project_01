@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}/*End of Reset*/
+
+/*User CSS */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+	background:#E64A19;
+	font-size:25px;
+	line-hight:35px;
+	color:#fff;
+	word-wrap:break-word;
+	font-family:"Open Sans",sans-serif;
+}
+
+h1 {
+	font-size:60px;
+	text-align:center;
+	color:#fff;
+	margin-top:100px;
+	font-family:"Bree Serif","serif";
+}
+
+p {
+	text-align:center;
+}
+
+/*User Nav CSS*/
+
+.user-menu {
+	background-color:#e73f3f;
+	height:51px;
+}
+
+.user-menu .user-options {
+	padding:0;
+	margin:0 7%;
+	list-style:none;
+	position:relative;
+}
+
+.user-menu .user-options li {
+	height:100%;
+	display:inline-block;
+	padding:13px 10px;
+}
+
+.user-menu .user-options li a {
+	padding:0 5px;
+	color:#fff;
+	font-size:16px;
+	text-decoration:none;
+}
+
+.user-menu li:hover {
+	background-color:#000;
+}
+
+
+/*Nav CSS*/
+
+
+
+.menu-items {
+	margin:0;
+	background-color: #fff;
+}
+
+.home-menu {
+	padding:0;
+  margin:0 7.5%;
+	list-style:none;
+	position:relative;
+	display:inline-block;
+	}
+	
+.home-menu >li {
+	display:inline-block;
+	background-color:#fff;
+	}
+
+.menu-items a {
+	display:block;
+	padding:0 10px;	
+	color:#000;
+	font-size:20px;
+	line-height:60px;
+	text-decoration:none;
+}
+
+.menu-items li a:hover { 
+	background-color:#000; 
+}
+
+.home-menu li a:hover {
+	color:#fff;
+}
+
+.home-menu ul {
+	display:none;
+	position:absolute; 
+	top:60px;
+}
+	
+.home-menu li:hover > ul {
+	display:inherit;
+}
+	
+.home-menu ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position:relative;
+	line-height:20px;
+	background-color:#fff;
+}
+
+.home-menu ul ul li {
+	position:relative;
+	top:-60px; 
+	left:170px;
+}
+
+.home-menu ul ul: {
+	background-color:#fff;
+}
+
+.home-menu ul ul li a {
+	line-height:30px;
+}	
+
+.home-menu li > a:after { 
+	content:"˅";
+	margin:5px;
+}
+.home-menu li > a:only-child:after {
+	content:""; 
+}
+
+.logo {
+	display:block;
+	padding:30px 60px 0 15px;
+	float:left;
+	font-size:20px;
+	line-height:60px;
+}
+.game {
+	color:#e73f3f;
+	font-size:33px;
+	font-weight:bold;
+}
+
+.menu-items div {
+	margin-right:50px;
+	margin-left:135px;
+}
