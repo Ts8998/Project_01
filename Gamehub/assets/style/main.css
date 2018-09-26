@@ -57,7 +57,20 @@ body {
 	line-height: 35px;
 	color: #fff;
 	word-wrap: break-word;
-	font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans",sans-serif;
+    content: ' ';
+    display: block;
+    background-image: url("http://static.tumblr.com/b21df14bdff3fdc6cd5a82be7cb2b658/xfvl0kj/Rzanu7zq9/tumblr_static_3mlsjldai3eo4ksogo88kkss4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -100;
 }
 
 
@@ -194,6 +207,3 @@ body {
 /*End of menu CSS*/
 
 /* Background CSS*/
-.background: {
-
-}
