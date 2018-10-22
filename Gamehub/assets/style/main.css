@@ -12,16 +12,16 @@ body {
     font-family: "Open Sans",sans-serif;
     content: ' ';
     display: block;
-    background-image: url("http://static.tumblr.com/b21df14bdff3fdc6cd5a82be7cb2b658/xfvl0kj/Rzanu7zq9/tumblr_static_3mlsjldai3eo4ksogo88kkss4.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 7699px;
-    width: 1920px;
+	background-image: url("http://static.tumblr.com/b21df14bdff3fdc6cd5a82be7cb2b658/xfvl0kj/Rzanu7zq9/tumblr_static_3mlsjldai3eo4ksogo88kkss4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 100%;
+    width: 100%;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    position: fixed;
     z-index: -100;
 }
 
