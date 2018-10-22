@@ -160,6 +160,16 @@ body {
 
 /*End of menu CSS*/
 
+/* Banner 1 */
+.banner-1 {
+	display: block;
+	position: relative;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}/* Banner 1 end */
+
 /* Central column css */
 .main-area {
 	background-color: #B71C1C;
