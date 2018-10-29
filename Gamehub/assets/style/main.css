@@ -16,7 +16,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-    height: 100%;
     width: 100%;
     top: 0;
     bottom: 0;
@@ -124,7 +123,7 @@ body {
 	left: 170px;
 }
 
-.home-menu ul ul: {
+.home-menu ul ul {
 	background-color: #fff;
 }
 
@@ -161,25 +160,23 @@ body {
 /*End of menu CSS*/
 
 /* Banner 1 */
-.banner-1 {
+.banner-top {
 	display: block;
-	position: relative;
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 48px auto;
+	width: 970px;
+	height: 250px;
 }/* Banner 1 end */
 
 /* Central column css */
 .main-area {
-	background-color: #B71C1C;
-	heigh: 6565px;
-	width: 1235px;
-	display: block;
+	background-color: #fff;
+	max-width: 1230px;
+	display: flex;
+	flex-direction: column;
 	margin-left: auto;
 	margin-right: auto;
-	border: 30px solid #BDBDBD;
-	padding: 15px;
+	border: 30px solid #fff;
+	color: #000;
 }
 
 .footer-menu li {
