@@ -12,16 +12,15 @@ body {
     font-family: "Open Sans",sans-serif;
     content: ' ';
     display: block;
-    background-image: url("http://static.tumblr.com/b21df14bdff3fdc6cd5a82be7cb2b658/xfvl0kj/Rzanu7zq9/tumblr_static_3mlsjldai3eo4ksogo88kkss4.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 7699px;
-    width: 1920px;
+	background-image: url("http://static.tumblr.com/b21df14bdff3fdc6cd5a82be7cb2b658/xfvl0kj/Rzanu7zq9/tumblr_static_3mlsjldai3eo4ksogo88kkss4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    width: 100%;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    position: fixed;
     z-index: -100;
 }
 
@@ -124,7 +123,7 @@ body {
 	left: 170px;
 }
 
-.home-menu ul ul: {
+.home-menu ul ul {
 	background-color: #fff;
 }
 
@@ -160,16 +159,24 @@ body {
 
 /*End of menu CSS*/
 
+/* Banner 1 */
+.banner-top {
+	display: block;
+	margin: 48px auto;
+	width: 970px;
+	height: 250px;
+}/* Banner 1 end */
+
 /* Central column css */
 .main-area {
-	background-color: #B71C1C;
-	heigh: 6565px;
-	width: 1235px;
-	display: block;
+	background-color: #fff;
+	max-width: 1230px;
+	display: flex;
+	flex-direction: column;
 	margin-left: auto;
 	margin-right: auto;
-	border: 30px solid #BDBDBD;
-	padding: 15px;
+	border: 30px solid #fff;
+	color: #000;
 }
 
 .footer-menu li {
