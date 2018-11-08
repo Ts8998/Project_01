@@ -240,6 +240,33 @@ body {
 	font-size: .6em;
 }
 
+/* aside */
+.aside-banner {
+	height: 336px;
+	width: 280px;
+	margin-bottom: 30px;
+}
+
+.social-menu {
+	background-color: #f8f8f8;
+	display: flex;
+	flex-direction: column;
+}
+
+.social-menu-title {
+	color: #e73f3e;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 2px solid #e73f3e;
+	padding-bottom: 15px;
+	margin: 30px;
+}
+
+.social-links {
+	background-color: #fff;
+	margin: 0 30px 30px;
+}
+
 .footer-menu li {
 	display: inline-block;
 }/* End of column css */
